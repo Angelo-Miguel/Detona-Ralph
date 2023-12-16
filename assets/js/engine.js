@@ -32,8 +32,9 @@ function countDown() {
     if (state.values.currentTime <= 0) {
         alert("Game Over! o seu resultado foi: " + state.values.result);
         clearInterval(state.action.countDownTimerId);
-        clearInterval(State.action.TimerId);
-        window. location. reload();
+       /*  clearInterval(State.action.TimerId); */
+        /* reload */
+        location.reload();
     }
 }
 
@@ -60,7 +61,6 @@ function addListenerhibox() {
                 state.view.lives.textContent = state.values.liveLeft;
                 if (state.values.liveLeft < 0) {
                     state.values.currentTime = 1;
-                    window. location. reload();
                 }
             }
         })    
