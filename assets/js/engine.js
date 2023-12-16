@@ -57,10 +57,12 @@ function addListenerhibox() {
                 state.values.hitPosition = null;
                 playSound("hit")
             }else{
-                state.values.liveLeft--;
-                state.view.lives.textContent = state.values.liveLeft;
-                if (state.values.liveLeft < 0) {
+                
+                if (state.values.liveLeft <= 0) {
                     state.values.currentTime = 1;
+                }else{
+                    state.values.liveLeft--;
+                    state.view.lives.textContent = state.values.liveLeft;
                 }
             }
         })    
