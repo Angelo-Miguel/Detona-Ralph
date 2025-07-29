@@ -21,23 +21,23 @@ Ou abra esse [link](https://angelo-miguel.github.io/Detona-Ralph/)
 - JavaScript
 
 ## Estrutura do Projeto
-.\
-├── index.html                 # Página principal do jogo\
-└── assets/\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ├── css/\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    │ &nbsp;&nbsp;&nbsp;&nbsp;  ├── reset.css          # Reset de estilos padrão\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   │  &nbsp;&nbsp;&nbsp; └── style.css          # Estilos personalizados do jogo\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ├── img/\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   │ &nbsp;&nbsp;&nbsp;  ├── favRalph.png       # Favicon do Ralph\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   │ &nbsp;&nbsp;&nbsp;  ├── player.png         # Sprite ou imagem do jogador\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  │ &nbsp;&nbsp;&nbsp;  ├── ralph.png          # Imagem do personagem Ralph\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   │ &nbsp;&nbsp;&nbsp;  └── wall.png           # Imagem da parede (obstáculo/cenário)\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ├── js/\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   │ &nbsp;&nbsp;&nbsp;&nbsp;  └── engine.js          # Script com a lógica principal do jogo\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   └── sounds/\
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  └── hit.m4a            # Efeito sonoro de impacto ou colisão\
-
-
+```
+.
+├── index.html                 # Página principal do jogo
+└── assets/
+    ├── css/
+    │   ├── reset.css          # Reset de estilos padrão
+    │   └── style.css          # Estilos personalizados do jogo
+    ├── img/
+    │   ├── favRalph.png       # Favicon do Ralph
+    │   ├── player.png         # Sprite ou imagem do jogador
+    │   ├── ralph.png          # Imagem do personagem Ralph
+    │   └── wall.png           # Imagem da parede (obstáculo/cenário)
+    ├── js/
+    │   └── engine.js          # Script com a lógica principal do jogo
+    └── sounds/
+        └── hit.m4a            # Efeito sonoro de impacto ou colisão
+```
 
 ## Créditos
 
